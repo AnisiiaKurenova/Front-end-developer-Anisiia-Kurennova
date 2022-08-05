@@ -1,0 +1,66 @@
+:root{
+    --primary-color: rgb(37, 35, 35);
+    --second-color:#5585b5;
+    --third-color: rgb(122, 117, 117);
+}
+
+.colornavbar{
+    background-color:var(--second-color)
+}
+.container_main{
+ 
+    margin: 0 auto;
+    margin-top: 40px;   
+}
+.about_me{
+    text-align: center;
+    color: var(--primary-color);
+}
+.homepage_back{
+    text-decoration: none;
+    font-size: 18px;
+    color:var( --second-color);
+}
+.homepage_back:visited{
+    color:var(--second-color);
+}
+h1{
+  font-size: 65px;  
+  margin-bottom: 5px;
+}
+.about_me_front-end{
+   font-size: 22px;  
+   color: var(--third-color);
+   margin-top: 10px;
+   margin-bottom: 50px;
+}
+
+.information{
+    background-color: rgb(250, 248, 248);
+    border: solid 1px  rgb(250, 248, 248);
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+  text-align: center;
+   margin-left: 90px;
+   margin-right: 90px;
+}
+.address{
+    margin-top: 50px;
+    text-align: center;
+    font-style: none;
+    color: var(--primary-color);
+}
+.caption_contact{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.mail_contact{
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--second-color);
+}
+.container_grid{
+    margin-top: 50px;
+}
